@@ -1,0 +1,273 @@
+*{
+
+
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.top{
+width: 100%;
+
+    display: flex;
+}
+.left_top{
+    display: flex;
+    position: relative;
+    
+    left: 16px;
+    float:left
+   
+    
+}
+.middle_top{
+    height: 52px;
+    display: flex;
+    position: relative;
+    
+    left: 32%;
+
+justify-content: center;
+}
+.middle_top div {
+    margin: 10px 10px;
+    background-color: blue;
+}
+
+.right{  
+    position:absolute;
+    right: 4px;
+    display: flex;
+}
+.top_2{
+    position: relative;
+    width: 100%;
+    height: 400px;
+    background: url(../img/blackimge.jpg) no-repeat;
+    background-size: 100%;
+    color: white;
+    text-align: center;
+    margin-bottom: 6px;
+   
+}
+.top_3{
+
+position: absolute;
+    top: 142px;
+    left: 69px;
+}
+.top_5{
+
+    margin: 15px 231px;
+
+}
+.top_6{
+
+    padding: 12px 20px;
+    background-color: orange;
+    border: none;
+    color: white;
+    border-radius: 30px;
+    text-decoration: none;
+ }
+ .top_6:hover{
+     background: transparent;
+     color:whitesmoke;
+     border: 2px solid whitesmoke;
+
+    
+ }
+
+.middle_middle{
+    display: flex;
+    text-align: -webkit-center;
+    margin-bottom: 30px;
+}
+.middle_icons{
+width: 70px;
+height: 70px;
+border-radius: 50%;
+color: white;
+font-size: xx-large;
+background: linear-gradient(
+45deg, #3d48cb, transparent);
+
+}
+
+.middle_icons i{
+    margin: 15px 15px;
+}
+.bottom_middle{
+
+background-color: black;
+width: 100%;
+height: 550px;
+
+}
+.bottom_middle_left{
+
+    float: left;
+    color: orange;
+}
+.bottom_middle_right{
+    color: white;
+    float:right;
+    margin-right: 20px;
+    background-color: blue;
+}
+
+.bottom_middle_colorblack{
+    display: flex;
+    position: absolute;
+    top: 750px;
+    left: 2%;
+  }
+.bottom_middle_colorblack h4{
+color: orange;
+
+
+}
+.bottom_middle_colorblack p{
+    color: white;
+    
+    }
+.bottom_middle_colorblack img{
+    margin: 0px;
+    display: flex;
+    width: 374px;
+    height: 200px;
+        
+        }
+.there_middle{
+    margin: 0px 2px;
+    margin-top: 30px;
+    text-align: center;
+    width: 100%;
+    height: 100px;
+    
+} 
+.there_middle h3{
+    color: cyan;
+   
+} 
+.there_middle p{
+
+     margin: 0px 325px;
+} 
+.four_middle{
+    margin: 0px 2px;
+    margin-top: 30px;
+    text-align: center;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    
+
+
+}
+.four_middle h4{
+    color: cyan;
+
+}
+.fived_middle{
+    margin: 0px 2px;
+    margin-top: 130px;
+  border-top: 2px black solid;
+    text-align: center;
+    width: 100%;
+    height: 100px;
+}
+.fived_middle h3{
+    color: cyan;
+  }
+  .fived_middle p{
+    margin: 0px 325px;
+  }
+.six_middle{
+
+    text-align: center;
+    color: orange;
+}
+.six_middle div{
+    display: flex;
+    justify-content: center;
+    margin: 5px 10px;
+}
+.six_icons{
+width: 70px;
+height: 70px;
+border-radius: 50%;
+color: white;
+font-size: xx-large;
+background: linear-gradient(
+45deg, black, transparent);
+}
+
+.six_icons i {
+    margin: 15px 15px;
+}
+.six_icons:hover{
+    background: linear-gradient(
+45deg, orange, transparent);
+}
+.bottom_bottom{
+    background-color: black;
+width: 100%;
+height: 240px;
+color: white;
+display: flex;
+
+}
+.bottom_bottom h3{
+   color: orange;
+
+}
+.bottom_bottom_1_2{
+
+    border-top: white solid 1px;
+    border-bottom: white solid 1px;
+}
+.bottom_bottom_2_2{
+    border-top: white solid 1px;
+    color: blue;
+}
+.bottom_bottom_2_3{
+    position: relative;
+    left: 120px;
+}
+.bottom_bottom_2_3 button{
+    background-color: blue;
+    border: none;
+    padding: 5px;
+}
+.bottom_bottom_3 img{
+    width: 60px;
+    height: 60px;
+
+}
+.bottom_bottom_3_3{
+    border-top: white solid 1px;
+    border-bottom: white solid 1px;
+
+}
+.bottom_bottom_1{
+    width: 25%;
+}
+.bottom_bottom_2{
+    width: 25%;
+}
+.bottom_bottom_3{
+    width: 25%;
+}
+.bottom_bottom_4{
+    width: 25%;
+}
+.bottom_bottom_icon{
+    display: inline-block;
+    font-size: xx-large;
+    color: blue;
+    margin-right: 10px;
+}
+.bottom_bottom_text{
+    display: inline-block;
+}
